@@ -5,8 +5,8 @@ UNIT = "section"
 DEPTH = 0
 
 # configuration for the import
-PATH = "book/main"
-PAUX = "book/main.paux"
-TAGS = "book/tags"
+PATH = "main"
+PAUX = "main.paux"
+TAGS = "tags"
 PDF = ""
 

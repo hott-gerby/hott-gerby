@@ -34,9 +34,9 @@ install:
 
   # 4) setup soft links for plasTeX output
   - cd gerby-website/gerby/tools
-  - ln -s ../../../document      document
-  - ln -s ../../../document.paux document.paux
-  - ln -s ../../../tags          tags
+  - ln -s ../../../book/document      document
+  - ln -s ../../../book/document.paux document.paux
+  - ln -s ../../../book/tags          tags
   - cd ../../..
 
   # 5) setup soft links for database
