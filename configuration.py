@@ -6,7 +6,7 @@ DEPTH = 0
 
 # configuration for the import
 PATH = "book/main"
-PAUX = "document.paux"
-TAGS = "tags"
+PAUX = "book/main.paux"
+TAGS = "book/tags"
 PDF = ""
 
