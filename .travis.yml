@@ -50,14 +50,13 @@ script:
   # 1) update tags file with new tags
   - cd book
   - python3 ../hello-world/tagger.py >> tags
-  - cd ..
   # in real life: first run it without writing it to the tags file to check for errors
 
-  # 2) convert to HTML: output goes to document/
-  - plastex --renderer=Gerby ./book/main.tex
+  # 2) convert to HTML: output goes to main/
+  - plastex --renderer=Gerby ./main.tex
 
   # 3) import plasTeX output into database
-  - cd gerby-website/gerby/tools
+  - cd ../gerby-website/gerby/tools
   - python3 update.py
   - cd ../..
 
