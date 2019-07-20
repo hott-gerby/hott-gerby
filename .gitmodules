@@ -1,0 +1,6 @@
+[submodule "hello-world"]
+	path = hello-world
+	url = https://github.com/hott-gerby/hello-world.git
+[submodule "book"]
+	path = book
+	url = https://github.com/HoTT/book.git
